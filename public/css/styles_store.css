@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Añadido para posicionar el botón "Ingresar" */
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+
+  
+  /* Estilos para el botón "Ingresar" en pantalla pequeña */
+  @media screen and (max-width: 768px) {
+    a.btn-ingresar {
+      position: relative; /* Volver a la posición normal */
+      top: 0;
+      right: 0;
+      margin-top: 10px; /* Agregar espacio entre el botón y el título */
+    }
+  }
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0 10px; /* Reducir el margen horizontal en pantallas más pequeñas */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Hacer los enlaces más prominentes */
+  }
+  
+  /* Estilos para la navegación en pantalla pequeña */
+  @media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column; /* Cambiar la dirección de la flexbox */
+      align-items: center; /* Centrar los elementos verticalmente */
+    }
+  
+    nav li {
+      margin: 10px 0; /* Añadir espacio vertical entre elementos */
+    }
+  }
+  /* Estilos para la sección de productos */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  section.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  section.producto img {
+    max-width: 100%;
+  }
+  
+  /* Estilos para el botón "Agregar al Carrito" */
+  button {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Estilos para la sección "welcome" con un estilo similar al encabezado */
+section.welcome {
+    background-color: #333; /* Cambia el color de fondo a tu elección */
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section.welcome h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  section.welcome h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  

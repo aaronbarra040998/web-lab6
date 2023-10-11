@@ -1,0 +1,52 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Tienda en Línea
+    link(rel="stylesheet", href="/css/styles_store.css")
+
+  body
+    header
+      h1 Bienvenido a Nuestra Tienda en Línea
+      h1= title 
+
+    nav
+      ul
+        li
+          a(href="#") Inicio
+        li
+          a(href="#") Catálogo
+        li
+          a(href="#") Ofertas
+        li
+          a(href="#") Contacto
+
+    main
+
+
+      section.producto
+        img(src="https://plazavea.vteximg.com.br/arquivos/ids/25908914-300-300/20312196.jpg?v=638146648033170000", alt="Producto 1")
+        h2= usuario1
+        h1= precio1
+        button Agregar al Carrito
+
+      section.producto
+        img(src="https://plazavea.vteximg.com.br/arquivos/ids/27553863-300-300/20339317.jpg?v=638314106458900000", alt="Producto 2")
+        h2= usuario2 
+        h1= precio2
+        button Agregar al Carrito
+
+      section.producto
+        img(src="https://plazavea.vteximg.com.br/arquivos/ids/27553891-300-300/20338249.jpg?v=638314107577770000", alt="Producto 3")
+        h2= usuario3 
+        h1= precio3
+        button Agregar al Carrito
+      
+      section.producto
+        img(src="https://plazavea.vteximg.com.br/arquivos/ids/27553884-300-300/20343009.jpg?v=638314107299870000", alt="Producto 3")
+        h2= usuario4    
+        h1= precio4
+        button Agregar al Carrito
+    footer
+      p © 2023 Nuestra Tienda en Línea
